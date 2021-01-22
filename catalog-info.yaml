@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "react-test-custom1"
+  description: "react-test-custom1"
+  annotations:
+    github.com/project-slug: "http://github.com/DmitriyKhirniy/react-test-custom1"
+    backstage.io/techdocs-ref: github:https://github.com/http://github.com/DmitriyKhirniy/react-test-custom1
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "DmitriyKhirniy"
